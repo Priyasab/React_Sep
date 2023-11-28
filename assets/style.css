@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./image/4897726.jpg");
+  width: 100%;
+}
+
+form {
+  background: blanchedalmond;
+  width: 350px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+form input {
+  display: block;
+  background: burlywood;
+  margin: 18px auto;
+  padding: 8px;
+  text-align: center;
+  border: 2px solid black;
+  outline: none;
+  width: 180px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+form input[type="submit"] {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 800;
+  background: green;
+  color: white;
+}
+p {
+  color: red;
+  font-size: 15px;
+}
+#reg-Btn {
+  display: none;
+}
+#Login-link {
+  display: none;
+}

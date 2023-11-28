@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <form id="form">
+      <h1 class="form-header">Login Form</h1>
+      <input
+        id="userName"
+        type="text"
+        placeholder="username"
+        onchange="onChangeUser()"
+        oninput="onInputUser()"
+      />
+      <div></div>
+      <input id="passWord" type="password" placeholder="password" />
+
+      <button type="submit" id="login-Btn" style="background-color: green">
+        Login
+      </button>
+      <button id="reg-Btn" type="submit" style="background-color: red">
+        Register
+      </button>
+      <br />
+      <a id="register-link" style="margin-top: 5px; cursor: pointer"
+        >Register</a
+      >
+      <a id="Login-link" style="margin-top: 5px; cursor: pointer">Login</a>
+      <div>Logged in sucessfully</div>
+      <div>Loggd in failed</div>
+    </form>
+
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
